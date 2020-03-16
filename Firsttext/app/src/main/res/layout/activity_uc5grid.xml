@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uc5grid">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".U501Activity">
+
+    <GridLayout
+        android:layout_width="360dp"
+        android:layout_height="550dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        android:rowCount="5">
+
+        <Button
+            android:id="@+id/buttonG1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/buttonG2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/buttonG3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/buttonG4"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/buttonG5"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/buttonG6"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/buttonG7"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/buttonG8"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/buttonG9"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/buttonG0"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/buttonGf1"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="+" />
+
+        <Button
+            android:id="@+id/buttonGf2"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="-" />
+
+        <Button
+            android:id="@+id/buttonGf3"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/buttonGf4"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="/" />
+
+        <Button
+            android:id="@+id/buttonGf5"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="=" />
+    </GridLayout>
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_row="0"
+            android:layout_column="1"
+            android:gravity="bottom|center|center_vertical"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/buttonUC5back"
+                android:layout_width="411dp"
+                android:layout_height="wrap_content"
+                android:text="返回" />
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

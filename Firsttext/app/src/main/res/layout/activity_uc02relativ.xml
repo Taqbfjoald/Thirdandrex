@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uc02relative">
+
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginTop="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonUC201"
+            android:text="第一个按钮">
+        </Button>
+
+        <Button
+            android:id="@+id/buttonUC202"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="223dp"
+            android:layout_marginTop="100dp"
+            android:layout_toEndOf="@+id/buttonUC201"
+            android:text="第二个按钮">
+
+        </Button>
+
+        <Button
+            android:id="@+id/buttonUC203"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:text="第三个按钮"
+            />
+
+        <Button
+            android:id="@+id/button204"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginStart="315dp"
+            android:text="第四个按钮" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center|center_vertical"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button2back"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

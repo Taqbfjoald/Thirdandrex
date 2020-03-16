@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uc0101page">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center|center_horizontal"
+        tools:context="com.example.xuhao.tongzhiapplication.MainActivity"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#B3F44336"
+            android:text="水平布局" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#B3FFEB3B"
+            android:text="垂直布局" />
+
+        <Button
+            android:id="@+id/button111"
+            android:layout_width="133dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#B32196F3"
+            android:text="靠左对齐" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom|center|center_vertical">
+
+        <Button
+            android:id="@+id/button0101"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:text="返回" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
